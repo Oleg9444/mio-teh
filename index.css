@@ -1,0 +1,76 @@
+
+
+    .banner {
+        overflow:hidden;
+        position:relative;
+    }
+
+    .banner .logo {
+     font-weight: bold;
+     font-size: 3rem;
+     font-family: 'Russo One', sans-serif;
+     color: #ff0000;
+}
+     .banner .logo {
+     width: 200px;	height: 50px; 
+     background: #fff; 
+     border: 5px solid #ff0000; 
+     border-radius: 10px;
+}
+ .banner .logo {
+     display: block;
+     margin-block-start: 0.50em;
+     margin-block-end: 0.50em;
+     margin-inline-start: 10px;
+     margin-inline-end: 10px;
+ }  
+ 
+     
+  
+     
+    .banner h2 {
+     font-family: 'Russo One', sans-serif;
+     font-size: 2rem;
+     color: #ff0000;
+     text-align: center;
+     
+     width: 600px;	height: 60px; 
+     position:absolute;
+     top:-5px;
+     right:0;
+     left:170px;
+
+    }
+    
+    
+    .banner h3 {
+     font-family: 'Russo One', sans-serif;
+     font-size: 1rem;
+     text-align: center;
+     width: 600px;	height: 60px; 
+     position:absolute;
+     top:45px;
+     right:0;
+     left:170px;
+
+}
+
+    nav .menu {
+   
+     list-style-type: inherit;
+     padding-left: 300px;
+     padding-right:0;
+     justify-content:space-around;
+     display: flex;
+  
+}
+
+    nav .menu a {
+     font-weight: bold;
+     text-decoration: inherit;
+     color: black;
+     text-transform: uppercase;
+     text-decoration: underline;
+     text-align: center;
+}
+    
