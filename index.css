@@ -1,5 +1,98 @@
 
 
+/*    .banner {*/
+/*        overflow:hidden;*/
+/*        position:relative;*/
+/*    }*/
+
+/*    .banner .logo {*/
+/*     font-weight: bold;*/
+/*     font-size: 3rem;*/
+/*     font-family: 'Russo One', sans-serif;*/
+/*     color: #ff0000;*/
+/*}*/
+/*     .banner .logo {*/
+/*     width: 200px;	height: 50px; */
+/*     background: #fff; */
+/*     border: 5px solid #ff0000; */
+/*     border-radius: 10px;*/
+/*}*/
+/* .banner .logo {*/
+/*     display: block;*/
+/*     margin-block-start: 0.50em;*/
+/*     margin-block-end: 0.50em;*/
+/*     margin-inline-start: 10px;*/
+/*     margin-inline-end: 10px;*/
+/* }  */
+ 
+     
+  
+     
+/*    .banner h2 {*/
+/*     font-family: 'Russo One', sans-serif;*/
+/*     font-size: 2rem;*/
+/*     color: #ff0000;*/
+/*     text-align: center;*/
+     
+/*     width: 600px;	height: 60px; */
+/*     position:absolute;*/
+/*     top:-5px;*/
+/*     right:0;*/
+/*     left:170px;*/
+
+/*    }*/
+    
+    
+/*    .banner h3 {*/
+/*     font-family: 'Russo One', sans-serif;*/
+/*     font-size: 1rem;*/
+/*     text-align: center;*/
+/*     width: 600px;	height: 60px; */
+/*     position:absolute;*/
+/*     top:45px;*/
+/*     right:0;*/
+/*     left:170px;*/
+
+/*}*/
+
+/*    nav .menu {*/
+   
+/*     list-style-type: inherit;*/
+/*     padding-left: 300px;*/
+/*     padding-right:0;*/
+/*     justify-content:space-around;*/
+/*     display: flex;*/
+  
+/*}*/
+
+/*    nav .menu a {*/
+/*     font-weight: bold;*/
+/*     text-decoration: inherit;*/
+/*     color: black;*/
+/*     text-transform: uppercase;*/
+/*     text-decoration: underline;*/
+/*     text-align: center;*/
+/*}*/
+/*    @media (min-wight: 820px) { */
+/*     header nav {*/
+/*      display: flex;*/
+/*     }*/
+     
+/*    }*/
+   
+   
+   
+   
+   body {
+    max-width: 980px;
+    margin: auto;
+    border: 5px #FF0000 solid;
+    border-radius: 10px;
+}
+ body {
+   background-color: #D4E6B3;
+   padding: 5px 10px 15px 20px;
+  }
     .banner {
         overflow:hidden;
         position:relative;
@@ -9,15 +102,15 @@
      font-weight: bold;
      font-size: 3rem;
      font-family: 'Russo One', sans-serif;
-     color: #ff0000;
+     color: #FF0000;
 }
      .banner .logo {
      width: 200px;	height: 50px; 
-     background: #fff; 
-     border: 5px solid #ff0000; 
+     background: #FFF; 
+     border: 5px #FF0000 double; 
      border-radius: 10px;
 }
- .banner .logo {
+     .banner .logo {
      display: block;
      margin-block-start: 0.50em;
      margin-block-end: 0.50em;
@@ -25,21 +118,18 @@
      margin-inline-end: 10px;
  }  
  
-     
-  
-     
+ 
     .banner h2 {
      font-family: 'Russo One', sans-serif;
      font-size: 2rem;
-     color: #ff0000;
+     color: #FF0000;
      text-align: center;
      
-     width: 600px;	height: 60px; 
      position:absolute;
      top:-5px;
      right:0;
-     left:170px;
-
+     left:220px;
+ 
     }
     
     
@@ -53,24 +143,58 @@
      right:0;
      left:170px;
 
-}
-
+   }
     nav .menu {
-   
-     list-style-type: inherit;
-     padding-left: 300px;
-     padding-right:0;
-     justify-content:space-around;
-     display: flex;
-  
-}
+ 
+    padding-left: 0;
+    padding-right:0;
+    justify-content:space-around;
+    display: flex;
+    
+    }
 
     nav .menu a {
      font-weight: bold;
      text-decoration: inherit;
-     color: black;
+     color: #8B0000;
      text-transform: uppercase;
-     text-decoration: underline;
      text-align: center;
-}
+     
+} 
+       nav .menu a:hover {
+        background-color: #F5F4BC;
+        color: #000000;
+        text-decoration: underline;
     
+      }
+   
+       #navbar {
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+       width: 210px;
+      }
+      #navbar li {
+        border: 2px #FF0000 dotted;
+        border-radius: 5px;
+        /*border-left: 5px solid #666;*/
+        border-bottom: 2px solid #000000 ;
+     }
+      #navbar a {
+        background-color: #f5f4bc;
+        color: #8B0000;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border-left: 1px solid #FF0000;
+        display: block;
+      }
+      #navbar a:hover {
+        background-color: #FFA07A;
+        color: #000000;
+        border-left : 5px solid #FF0000;
+        border-right: 5px solid #FF0000;
+      }
+ 
+ 
+ 
